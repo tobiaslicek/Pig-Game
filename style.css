@@ -22,7 +22,6 @@ body {
   justify-content: center;
 }
 
-
 /* LAYOUT */
 main {
   position: relative;
@@ -45,7 +44,6 @@ main {
   align-items: center;
   transition: all 0.75s;
 }
-
 
 /* ELEMENTS */
 .name {
@@ -100,7 +98,6 @@ main {
 .current-score {
   font-size: 3.5rem;
 }
-
 
 /* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
@@ -167,4 +164,8 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.hidden {
+  display: none;
 }
